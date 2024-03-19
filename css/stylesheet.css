@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
+body {
+    background-image: url(/img/asset1.png);
+    background-repeat: repeat-y;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100;
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 10rem;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 6rem; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.clicktostart {
+    margin: auto;
+    text-align: center;
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 10px;
+}
+
+
+.clicktostart:hover {
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.help h1{
+    text-align: center;
+    margin-top: 100;
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 5rem;
+    margin-top: 5%;
+}
+
+.help h2 {
+    text-align: center;
+    margin-top: 100;
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 3rem;
+    margin-top: 5%;
+}
+
+
+
+#words h1 {
+    text-align: center;
+    margin-top: 100;
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 3rem;
+    margin-top: 5%;
+}
+
+#words h2 {
+    margin-top: 1%;
+}
+
+.win h1 {
+    margin: auto;
+    text-align: center;
+    margin-top: 100;
+    font-family: "Gaegu", sans-serif;   
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 8rem;
+    margin-top: 10%;
+}
+
+.win p {
+    margin: auto;
+    text-align: center;
+    margin-top: 100;
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 2rem;
+}
+
+#intro img {
+    margin-top: -30%;
+    transform: scale(0.5);
+}
+
+.titles h1 {
+    text-align: center;
+    margin-top: 100;
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 2rem;
+}
+
+.titles p {
+    text-align: center;
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 20px; 
+}
+
+.row::after {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.column, img {
+    margin: auto;
+    max-width: 50%;
+    text-align: center;
+}
+
+.column:hover {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+
+}
+
+.playagain h1 {
+    margin: auto;
+    text-align: center;
+    margin-top: 100;
+    font-family: "Gaegu", sans-serif;   
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 5rem;
+    margin-top: 10%;
+}
+
+.container {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.row1 {
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.row2 {
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.row1 h1 {
+    font-size: 3rem;
+}
+
+.row2 h1 {
+    font-size: 3rem;
+}
+
+.row1:hover {
+    background-color: blue; 
+    transform: scale(1.5);
+}
+
+.row2:hover {
+    background-color: red; 
+    transform: scale(1.5);
+}
